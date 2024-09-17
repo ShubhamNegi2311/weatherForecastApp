@@ -7,13 +7,13 @@ import {store} from 'store/store';
 
 const App = () => {
   return (
-    <AppContainer>
-      <NetworkProvider>
+    <NetworkProvider>
+      <AppContainer>
         <Provider store={store}>
           <AppNavigator />
         </Provider>
-      </NetworkProvider>
-    </AppContainer>
+      </AppContainer>
+    </NetworkProvider>
   );
 };
 
